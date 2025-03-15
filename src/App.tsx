@@ -1,15 +1,14 @@
-import { Button } from "@mui/material"
+import { BrowserRouter } from 'react-router';
 
-import './assets/styles/global.css'
-
+import './assets/styles/global.css';
+import AppRouter from './shared/components/routes/AppRouter';
 
 const App = () => {
   return (
-    <div>
-      <Button>HELLO</Button>
-      HELLOOOO
-    </div>
-  )
-}
+    <BrowserRouter>
+      <AppRouter />
+    </BrowserRouter>
+  );
+};
 
-export default App
+export default App;
