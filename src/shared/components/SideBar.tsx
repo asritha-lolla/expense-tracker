@@ -49,8 +49,8 @@ const SideBar = ({ width }: ISidebarProps) => {
           <List key={index}>
             <ListItem disablePadding>
               <ListItemButton onClick={() => navigationHandler(route.path)}>
-                <ListItemIcon>{route.icon}</ListItemIcon>
-                <ListItemText>{route.name}</ListItemText>
+                <ListItemIcon sx={{color:'white'}}>{route.icon}</ListItemIcon>
+                <ListItemText sx={{color:'white'}}>{route.name}</ListItemText>
               </ListItemButton>
             </ListItem>
           </List>
