@@ -1,10 +1,7 @@
-import { Typography } from "@mui/material"
+import Loans from "../features/loans/components/Loans"
 
 const LoansPage = () => {
-  return (
-    <Typography>
-    Loans
-    </Typography>
+  return ( <Loans/>
   )
 }
 

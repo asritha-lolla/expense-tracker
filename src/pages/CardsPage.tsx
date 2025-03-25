@@ -1,11 +1,7 @@
-import { Typography } from "@mui/material"
+import Cards from "../features/cards/components/Cards"
 
 const CardsPage = () => {
-  return (
-    <Typography>
-    Cards
-    </Typography>
-  )
+  return <Cards/>
 }
 
 export default CardsPage

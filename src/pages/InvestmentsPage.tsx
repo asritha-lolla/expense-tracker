@@ -1,11 +1,7 @@
-import { Typography } from "@mui/material"
+import Investments from "../features/investments/components/Investments"
 
 const InvestmentsPage = () => {
-  return (
-    <Typography>
-    Investment
-    </Typography>
-  )
+  return (<Investments/>)
 }
 
 export default InvestmentsPage

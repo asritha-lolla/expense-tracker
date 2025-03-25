@@ -1,11 +1,7 @@
-import { Typography } from "@mui/material"
+import Expenses from "../features/expenses/components/Expenses"
 
 const ExpensesPage = () => {
-  return (
-    <Typography>
-    Expenses
-    </Typography>
-  )
+  return <Expenses/>
 }
 
 export default ExpensesPage

@@ -1,4 +1,4 @@
-import Accounts from '../features/accounts/Accounts';
+import Accounts from '../features/accounts/components/Accounts';
 
 const AccountsPage = () => {
   return <Accounts />;
